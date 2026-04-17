@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url("../recursos/fondo.JPG");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+}
+
+main{
+    min-height: 100vh;
+    position: relative;
+    padding: 7% 6% 0 8%;
+}
+
+h1, p{
+    font-family: 'Poppins';
+    color: #0a2ff1;
+    width: 52%;
+    max-width: 760px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 78.6px;
+    line-height: 1.4;
+}
+
+p{
+    font-weight: medium;
+    line-height: 1.4;
+    font-size: 30.6px;
+    margin-top: 2.2%;
+}
+
+span{
+    background-color: #3ffff3;
+    padding: 0 8px;
+    line-height: 1;
+    display: inline-block;
+}
+
+.celu{
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    max-width: 520px;
+}
+
+.celu img{
+    width: 100%;
+    display: block;
+}
